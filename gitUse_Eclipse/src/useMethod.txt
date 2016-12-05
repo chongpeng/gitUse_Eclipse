@@ -1,0 +1,11 @@
+                   title:     git在eclipse中的使用
+1.eclipse中安装git的方法：  help-->About eclipse---> installation details  查看eclipse中是否安装过git
+                      (如果没有安装过git，且eclipse中没有自带git,则需要安装)
+      help--->install new software--->work with: 中输入git--->add--->name:git  location: git - http://download.eclipse.org/egit/updates
+
+2.本地工程上传到远程仓库：
+  2.1 把项目设置git管理：
+      team-->share project-->git-->create repository--->选择本地 reposity路径-->finish
+  2.2 这意味着已经成功把项目标识为GIT管理项目，接下来就是提交到本地仓库了，然后再提交远程仓库(如果不提交到本地仓库，无法提交到远程仓库，如果你想问为什么这么变态，这就是游戏规则！)
+  2.3 把项目添加到本地仓库
+      team-->commit-->填备注
