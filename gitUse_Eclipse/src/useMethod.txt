@@ -5,7 +5,11 @@
 
 2.本地工程上传到远程仓库：
   2.1 把项目设置git管理：
-      team-->share project-->git-->create repository--->选择本地 reposity路径-->finish
+      team-->share project-->git-->create repository--->选择本地 reposity路径-->finish(项目名称前有 ？号产生)
   2.2 这意味着已经成功把项目标识为GIT管理项目，接下来就是提交到本地仓库了，然后再提交远程仓库(如果不提交到本地仓库，无法提交到远程仓库，如果你想问为什么这么变态，这就是游戏规则！)
   2.3 把项目添加到本地仓库
-      team-->commit-->填备注
+      team-->commit-->填备注 (?号消失)
+  2.4 提交到远程仓库：
+      team-->remote-->push 
+                  注：如果勾选force update，则表示覆盖提交
+                         如果在提交时有红色冲突提示，则必须先更新再提交
